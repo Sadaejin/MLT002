@@ -1,0 +1,16 @@
+{
+  "Engine": "C# .NET 8 // Luminox QuantCore",
+  "Symbol": "XAUUSD",
+  "EntryPrice": 2656.35,
+  "StopLoss": 2610,
+  "TakeProfit": 2731.35,
+  "RiskRewardRatio": 1.62,
+  "RecommendedPositionUnits": 3.2362,
+  "FibonacciLevels": {
+    "0.236": 2667.3,
+    "0.382": 2656.35,
+    "0.500": 2647.5,
+    "0.618": 2638.65,
+    "1.618_EXT": 2731.35
+  }
+}
