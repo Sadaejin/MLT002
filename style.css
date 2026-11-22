@@ -1,0 +1,63 @@
+/* Polyglot Runtime Lab */
+.lab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+
+.lab-card {
+  background: var(--surface);
+  padding: 1.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.lab-card h3 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1.15rem;
+  color: var(--accent);
+}
+
+.lab-card p {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.quant-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+}
+
+.quant-inputs label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.quant-inputs input {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.45rem 0.6rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.8rem;
+}
+
+.code-console {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 0.85rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--text);
+  overflow-x: auto;
+  max-height: 230px;
+}
