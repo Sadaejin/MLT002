@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-party="false">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luminox.fx — Crafting light in the void. Motion design, spatial web architecture, financial tech, and audio synthesis by Debasis." />
+  <title>Luminox.fx | Debasis — Visual Architect</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Sticky Navigation -->
+  <header class="topbar">
+    <a href="#top" class="brand" aria-label="Luminox.fx Home">
+      <svg class="brand-diamond" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+        <polygon points="12,1 23,12 12,23 1,12" fill="currentColor" />
+      </svg>
+      <span>Luminox.fx.</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#arsenal">Arsenal</a>
+      <a href="#brief">Brief</a>
+      <a href="#polyglot">Lab</a>
+      <a href="#elsewhere">Elsewhere</a>
+    </nav>
+
+    <div class="nav-controls">
+      <button id="partyToggle" class="pill-btn" type="button" aria-pressed="false">[ PARTY ]</button>
+      <button id="themeToggle" class="pill-btn" type="button" aria-pressed="false">[ LIGHT ]</button>
+      <a id="topMailBtn" href="mailto:luminoxdesignstudio@gmail.com?subject=Project%20Inquiry%20%E2%80%94%20Luminox.fx" class="cta-pill">
+        Start a Project &nearr;
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section with Live GLSL Shader -->
+    <section class="hero">
+      <canvas id="glCanvas"></canvas>
+      <div class="hero-content">
+        <div class="hero-badge">HTML5 &bull; CSS3 &bull; JS &bull; GLSL &bull; PY &bull; C# &bull; JSON</div>
+        <h1 class="hero-title">Luminox.fx</h1>
+        <p class="hero-tagline">CRAFTING LIGHT IN THE VOID.</p>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About">[ SCROLL &darr; ]</a>
+    </section>
+
+    <!-- [ 01 ] Visual Architect / About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-tag">[ 01 ] VISUAL ARCHITECT</div>
+        <h2 class="architect-heading">
+          &#3882;&#3842; &#120071;&#120098;&#120095;&#120094;&#120112;&#120102;&#120112; <span class="divider">|</span> <span class="sub-rank">DIVINE BLESSING</span> &#3842;&#3882;
+        </h2>
+
+        <div class="about-grid">
+          <p class="lead-copy">
+            Crafting light in the void. Bridging the gap between cinematic motion design, highly interactive spatial UIs, and market technology.
+          </p>
+          <div class="bio-column">
+            <p>
+              I build immersive digital ecosystems that push the boundaries of the web. No inflated claims, no borrowed credibility. Just honest work, clear communication, and a standard of quality held on every project.
+            </p>
+            <div class="stack-pills">
+              <span>After Motion Z+</span>
+              <span>Vanilla JS &amp; WebGL</span>
+              <span>Termux Mobile-First</span>
+              <span>PineScript &amp; MT5</span>
+              <span>ElevenLabs &amp; Spatial Audio</span>
+            </div>
+            <a href="#arsenal" class="inline-link">Explore Arsenal &darr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- [ 02 ] Arsenal & Services + Interactive Pricing -->
+    <section id="arsenal" class="section">
+      <div class="container">
+        <div class="section-header-row">
+          <div class="section-tag">[ 02 ] ARSENAL &amp; SERVICES</div>
+          <div class="division-tabs" id="divisionTabs" role="tablist" aria-label="Service Divisions"></div>
+        </div>
+
+        <div class="arsenal-grid" id="arsenalGrid"></div>
+
+        <div class="tiers-panel" id="tiersPanel">
+          <div class="tiers-header">
+            <div>
+              <span class="tiers-kicker" id="activeDivCode">01 / MOTION &amp; ANIMATION</span>
+              <h3 class="tiers-title" id="activeDivTitle">Dynamic visual storytelling.</h3>
+              <p class="tiers-desc" id="activeDivDesc"></p>
+            </div>
+            <span class="status-pill" id="activeDivStatus">OPEN FOR COMMISSIONS</span>
+          </div>
+
+          <div class="tiers-grid" id="tiersGrid"></div>
+          <p class="tiers-footnote" id="tiersFootnote"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- [ 03 ] Interactive Project Brief & Mailto Launcher -->
+    <section id="brief" class="section">
+      <div class="container">
+        <div class="section-tag">[ 03 ] WORKFLOW &amp; BRIEF LAUNCHER</div>
+        <div class="brief-layout">
+          <div class="brief-info">
+            <h3>Initiate a Project.</h3>
+            <p>
+              Select any division or package above to auto-load its brief template, customize your project details below, and send it directly to <strong>luminoxdesignstudio@gmail.com</strong>.
+            </p>
+            <ul class="terms-list">
+              <li><strong>50 / 50 Milestone Terms:</strong> 50% upfront deposit to begin drafting; 50% upon final delivery.</li>
+              <li><strong>Direct Delivery:</strong> Source code, unwatermarked <code>.mp4</code>, or <code>.wav/.mp3</code> masters delivered upon completion.</li>
+            </ul>
+            <div class="brief-actions">
+              <a id="launchEmailBtn" href="mailto:luminoxdesignstudio@gmail.com" class="primary-btn">
+                Open in Email App &nearr;
+              </a>
+              <button id="copyBriefBtn" type="button" class="secondary-btn">Copy Brief</button>
+              <button id="copyEmailBtn" type="button" class="secondary-btn">Copy Email</button>
+            </div>
+          </div>
+
+          <div class="brief-editor-wrap">
+            <label for="briefEditor" class="editor-label">// EDITABLE PROJECT BRIEF</label>
+            <textarea id="briefEditor" rows="13" spellcheck="false"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- [ 04 ] Polyglot Runtime Lab (Python WASM + C# QuantCore) -->
+    <section id="polyglot" class="section">
+      <div class="container">
+        <div class="section-tag">[ 04 ] POLYGLOT RUNTIME LAB &mdash; 11 LANGUAGES</div>
+        <div class="lab-grid">
+          <div class="lab-card">
+            <div class="card-top-row">
+              <span>PYTHON 3 // PYODIDE WASM</span>
+              <span id="pyStatus">IDLE (CLICK TO BOOT)</span>
+            </div>
+            <h3>analytics.py</h3>
+            <p>Executes real CPython in WebAssembly directly inside your browser to audit pricing metrics from <code>portfolio.json</code>.</p>
+            <div class="brief-actions">
+              <button id="runPyBtn" type="button" class="primary-btn">Run Python in Browser</button>
+              <a href="./analytics.py" class="secondary-btn">View .py Source</a>
+            </div>
+            <pre id="pyConsole" class="code-console">// Ready. Click "Run Python in Browser" to mount WebAssembly runtime...</pre>
+          </div>
+
+          <div class="lab-card">
+            <div class="card-top-row">
+              <span>C# .NET 8 // QUANTCORE</span>
+              <span>FIBONACCI &amp; RISK ENGINE</span>
+            </div>
+            <h3>QuantCore.cs</h3>
+            <p>Calculates 0.382 Fibonacci entries, stop-loss levels, and position sizing&mdash;compiled in GitHub Actions and mirrored live below.</p>
+            <div class="quant-inputs">
+              <label>Balance ($) <input id="qBalance" type="number" value="10000" /></label>
+              <label>Risk (%) <input id="qRisk" type="number" step="0.1" value="1.5" /></label>
+              <label>Swing Low <input id="qLow" type="number" step="0.1" value="2610" /></label>
+              <label>Swing High <input id="qHigh" type="number" step="0.1" value="2685" /></label>
+            </div>
+            <div class="brief-actions">
+              <button id="runCsBtn" type="button" class="primary-btn">Execute C# Logic</button>
+              <a href="./QuantCore.cs" class="secondary-btn">View .cs Source</a>
+            </div>
+            <pre id="csConsole" class="code-console">// Initializing C# QuantCore simulation...</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Studio Footer -->
+  <footer id="elsewhere" class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <a href="#top" class="brand">
+            <svg class="brand-diamond" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+              <polygon points="12,1 23,12 12,23 1,12" fill="currentColor" />
+            </svg>
+            <span>Luminox.fx.</span>
+          </a>
+          <p>
+            A premium digital studio built for creators, founders, and businesses that value quality, reliability, and visual results.
+          </p>
+          <a href="mailto:luminoxdesignstudio@gmail.com?subject=Project%20Inquiry%20%E2%80%94%20Luminox.fx" class="inline-link">
+            Start a Project &nearr;
+          </a>
+        </div>
+
+        <div class="footer-links-grid">
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#top">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#arsenal">Arsenal</a></li>
+              <li><a href="#polyglot">Runtime Lab</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Services</h4>
+            <ul>
+              <li><button type="button" class="footer-link-btn" data-select-div="motion">Motion &amp; Animation</button></li>
+              <li><button type="button" class="footer-link-btn" data-select-div="web">Web Architecture</button></li>
+              <li><button type="button" class="footer-link-btn" data-select-div="market">Financial Tech</button></li>
+              <li><button type="button" class="footer-link-btn" data-select-div="audio">Audio &amp; AI Synthesis</button></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Elsewhere</h4>
+            <ul>
+              <li><a href="https://discord.com/users/1368846780594126849" target="_blank" rel="noopener noreferrer">Discord &nearr;</a></li>
+              <li><a href="https://www.instagram.com/luminox.fx" target="_blank" rel="noopener noreferrer">Portfolio IG &nearr;</a></li>
+              <li><a href="https://www.instagram.com/sadaij_in" target="_blank" rel="noopener noreferrer">Main IG &nearr;</a></li>
+              <li><a href="https://youtube.com/@luminoxfx" target="_blank" rel="noopener noreferrer">YouTube &nearr;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 LUMINOX.FX. ALL RIGHTS RESERVED.</span>
+        <span>BUILT WITH INTENT.</span>
+      </div>
+    </div>
+
+    <div class="watermark" aria-hidden="true">LUMINOX</div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
