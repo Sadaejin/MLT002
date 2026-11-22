@@ -1,0 +1,147 @@
+{
+  "email": "luminoxdesignstudio@gmail.com",
+  "divisions": [
+    {
+      "id": "motion",
+      "number": "01 / 04",
+      "tabLabel": "01 Motion",
+      "title": "Motion & Animation",
+      "headline": "Dynamic visual storytelling.",
+      "summary": "Cinematic motion graphics, After Motion Z+, FlipaClip, Keyflow, and advanced timeline keyframing built to raise production value and craft compelling narratives.",
+      "status": "OPEN",
+      "footnote": "Default delivery in .mp4 (9:16, 1:1, or 16:9), with alternative formats available upon request.",
+      "tiers": [
+        {
+          "name": "Micro-Edits & Add-Ons",
+          "price": "$1.99 – $4.99",
+          "fit": "Quick fixes, format changes, or minor tweaks to an existing asset.",
+          "features": ["Basic file type conversions", "Minor text or color adjustments", "Simple overlay or watermark addition"]
+        },
+        {
+          "name": "Light Customization",
+          "price": "$14.99 – $25.00",
+          "fit": "Social media posts, quick announcements, or logo reveals.",
+          "features": ["Basic motion text animations", "Single aspect ratio (16:9 or 9:16)", "Template-based branding customization"]
+        },
+        {
+          "name": "Custom Design Entry",
+          "price": "$35.00",
+          "fit": "Custom business advertisements, product showcases, or promo clips.",
+          "features": ["Custom motion design tailored to brand", "Standard timeline keyframing & transitions", "Choice of 9:16, 1:1, or 16:9 .mp4"]
+        },
+        {
+          "name": "Intermediate Customization",
+          "price": "$50.00",
+          "fit": "Multi-platform ads requiring polished, engaging visual flow.",
+          "features": ["Intricate motion graphics & custom pacing", "Multiple aspect ratios included", "Moderate revision flexibility"]
+        },
+        {
+          "name": "Advanced Customization",
+          "price": "$75.00",
+          "fit": "High-conversion promos, product demos, or brand stories.",
+          "features": ["High-end timeline complexity & VFX", "Custom brand assets & SFX sync", "Specialized export formats"]
+        },
+        {
+          "name": "Maximum Customization",
+          "price": "$99.00",
+          "fit": "Flagship campaigns, complex motion graphics, and premium promos.",
+          "features": ["Top-tier full-custom production", "Heavy keyframing & advanced VFX", "Full multi-format delivery + priority iteration"]
+        }
+      ],
+      "briefTemplate": "// LUMINOX.FX — MOTION & ANIMATION BRIEF\n\nProject Overview:\nTarget Tier: [$35 Entry / $50 Intermediate / $75 Advanced / $99 Maximum]\nAspect Ratio: [9:16 Reels / 16:9 YouTube / 1:1 Square]\n\nRequirements:\nVisual Direction: [Describe pacing, references, or vibe]\nAssets Provided: [Logo, script, raw clips, or audio link]\n\nTerms:\nDelivery: High-bitrate .mp4 upon completion.\nPayment: 50% upfront deposit to begin. 50% upon final delivery."
+    },
+    {
+      "id": "web",
+      "number": "02 / 04",
+      "tabLabel": "02 Web",
+      "title": "Web Architecture",
+      "headline": "Spatial UIs & Fast Frontends.",
+      "summary": "Termux (Mobile-first Dev), Vanilla JavaScript, WebGL, Canvas API, and CSS Grid engineered cleanly for highly interactive and optimized modern web experiences.",
+      "status": "OPEN",
+      "footnote": "Zero-dependency production code delivered ready for GitHub Pages, Vercel, or Netlify.",
+      "tiers": [
+        {
+          "name": "Landing Page Foundation",
+          "price": "$150.00",
+          "fit": "Creators and small brands needing a high-speed single-page presence.",
+          "features": ["Single-page HTML/CSS/JS architecture", "Fully responsive mobile & desktop layout", "Scroll animations & zero-dependency speed"]
+        },
+        {
+          "name": "Multi-Page Ecosystem",
+          "price": "$400.00",
+          "fit": "Growing businesses requiring structured routing and service pages.",
+          "features": ["Up to 5 distinct pages", "Advanced CSS Grid/Flexbox layouts", "Light/Dark mode & UI micro-interactions"]
+        },
+        {
+          "name": "Immersive Web App",
+          "price": "$900.00+",
+          "fit": "Brands wanting cinematic, interactive spatial UIs and WebGL experiences.",
+          "features": ["3D Particle engines & WebGL shaders", "Custom Vanilla JS physics & state engine", "Full bespoke UI/UX architecture"]
+        }
+      ],
+      "briefTemplate": "// LUMINOX.FX — WEB ARCHITECTURE BRIEF\n\nProject Overview:\nTarget Tier: [$150 Foundation / $400 Ecosystem / $900+ Immersive]\nCurrent Website (if applicable): [Link]\n\nRequirements:\nObjective: [e.g., Single-page portfolio or interactive brand hub]\nRequired Features: [e.g., WebGL hero, Dark/Light mode, JSON catalog]\nDesign Vibe: [e.g., Minimalist, dark mode, high-tech]\n\nTerms:\nHosting: Ready for GitHub Pages / Vercel.\nPayment: 50% upfront deposit to begin. 50% upon final code delivery."
+    },
+    {
+      "id": "market",
+      "number": "03 / 04",
+      "tabLabel": "03 Market Tech",
+      "title": "Market & Financial Tech",
+      "headline": "Precision data overlays.",
+      "summary": "TradingView Custom Integrations, MetaTrader 5 (MT5), Binance API, and \"God's Eye\" Terminal Engineering providing robust real-time data overlays.",
+      "status": "CLOSED",
+      "footnote": "// STATUS: Commissions for the Market & Financial Tech division are currently CLOSED.",
+      "tiers": [
+        {
+          "name": "Custom Indicator / Script",
+          "price": "$50.00",
+          "fit": "Traders needing a specific technical overlay or alert system.",
+          "features": ["TradingView PineScript or MT5 MQL5 indicator", "Custom visual zones & moving average overlays", "Basic alert integration (Email / App push)"]
+        },
+        {
+          "name": "Automated Strategy Bot",
+          "price": "$200.00",
+          "fit": "Automating a strict set of entry/exit rules in the market.",
+          "features": ["Full logic coding for automated entries/exits", "Stop-loss & take-profit risk management", "Backtesting environment & webhook setup"]
+        },
+        {
+          "name": "God's Eye Terminal UI",
+          "price": "$800.00+",
+          "fit": "Prop firms or serious traders needing a bespoke web market dashboard.",
+          "features": ["Bespoke spatial UI linking multiple APIs", "Live real-time data visualizers & heatmaps", "Ultra-secure minimal dark-mode architecture"]
+        }
+      ],
+      "briefTemplate": "// STATUS: Market & Financial Tech commissions are currently CLOSED.\n// You can still inquire below to join the waitlist for the next opening.\n\nProject Overview:\nTarget Tier: [$50 Indicator / $200 Strategy / $800+ Terminal]\nPlatform: [TradingView / MetaTrader 5 / Custom Web]\n\nLogic Description: [Explain the rules or visual overlay needed]"
+    },
+    {
+      "id": "audio",
+      "number": "04 / 04",
+      "tabLabel": "04 Audio & AI",
+      "title": "Audio & AI Synthesis",
+      "headline": "Spatial soundscapes.",
+      "summary": "ElevenLabs Audio Engineering, Spatial Web Audio, precise digital sound design, and robust version control architecture for high-end environments.",
+      "status": "OPEN",
+      "footnote": "Delivered in mastered .wav and optimized .mp3 formats tailored for mobile and headphones.",
+      "tiers": [
+        {
+          "name": "UI Sound Design / SFX",
+          "price": "$30.00",
+          "fit": "Web developers or app creators needing tactile interaction sounds.",
+          "features": ["Pack of 5–10 custom micro-interaction SFX", "Minimalist / futuristic acoustic profiling", "Optimized .wav and .mp3 delivery"]
+        },
+        {
+          "name": "AI Voice Tuning & Sync",
+          "price": "$80.00",
+          "fit": "Creators needing realistic, emotionally tuned AI voiceovers.",
+          "features": ["Advanced ElevenLabs parameter tuning", "Up to 2 minutes of script processing", "Timeline sync & breath/pacing adjustments"]
+        },
+        {
+          "name": "Spatial Audio Mix",
+          "price": "$150.00+",
+          "fit": "Cinematic motion projects requiring a complete auditory landscape.",
+          "features": ["Complete soundbed (drones, impacts, risers)", "3D spatial panning & frequency EQ", "Mastered for mobile speakers & headphones"]
+        }
+      ],
+      "briefTemplate": "// LUMINOX.FX — AUDIO & AI SYNTHESIS BRIEF\n\nProject Overview:\nTarget Tier: [$30 SFX / $80 AI Voice / $150+ Spatial Mix]\nProject Type: [Web UI / Video Ad / Short Film]\n\nRequirements:\nVibe/Atmosphere: [e.g., Dark, cinematic bass, clean, organic]\nAssets Provided: [Video file link or voiceover script]\n\nTerms:\nDelivery: Mastered .wav / .mp3 files upon completion.\nPayment: 50% upfront deposit to begin. 50% upon final delivery."
+    }
+  ]
+}
